@@ -1,0 +1,5 @@
+qual_caractere_representa_o_unicode_a_direita = chr(97)
+qual_unicode_do_caractere_a_direita = ord("A")
+
+print(qual_caractere_representa_o_unicode_a_direita)
+print(qual_unicode_do_caractere_a_direita)
