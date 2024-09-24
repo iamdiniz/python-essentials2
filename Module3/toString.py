@@ -8,4 +8,5 @@ class Star:
 
 
 sun = Star("Sun", "Milky Way")
-print(sun)
+print(sun) # out: Sun in Milky Way
+print(isinstance(sun, Star)) # sun é uma instancia de Star? Sim
