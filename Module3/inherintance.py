@@ -4,7 +4,7 @@ class Pai:
         self.idade = idade
         self.dineiro = dinheiro
 
-    def __str__(self):
+    def __str__(self): # Esse método foi herdado
         return f"My name is {self.name}. \n I hava a {self.idade} years old. Ima Pursuing ${self.dineiro:.3f}" # separador de casas decimais :.2f
 
 
